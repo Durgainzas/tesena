@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -20,6 +21,12 @@
                         <remoteURL>https://janhornych1:wtMuouTXj1wAZxwCwzhQ@hub-cloud.browserstack.com/wd/hub</remoteURL>
                         <remote>false</remote>
                     </systemPropertyVariables>
+
+                    <suiteXmlFiles>
+
+                        <suiteXmlFile>src/test/resources/example_5/testng.xml</suiteXmlFile>
+
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
             <plugin>
